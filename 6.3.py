@@ -1,2 +1,3 @@
 university = "Krakow University of Economics"
-print(university[-9:-1])
+abreviation = (university[0] + university[7] + university[21]).upper()
+print(abreviation)
